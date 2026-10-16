@@ -29,4 +29,3 @@
 - SQL Server (T-SQL)
 - Подзапросы, CTE, оконные функции, JOIN, GROUP BY, HAVING
 
-## Структура репозитория
