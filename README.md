@@ -9,6 +9,7 @@
 
 ## Инструменты
 - SQL Server
+- Yandex DataLens
 - CTE, подзапросы, оконные функции, JOIN, GROUP BY, HAVING
 
 ## Вопросы, на которые отвечает проект
