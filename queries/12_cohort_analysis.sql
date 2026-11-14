@@ -8,7 +8,7 @@ T2 AS (
  SELECT T.CustomerID, T.CustomerName, FORMAT(T.FirstOrder, 'yyyy-MM') AS FirstOrder,
  DATEDIFF(MONTH, T.FirstOrder, Orders.OrderDate) AS Datetdiff
  FROM T
-    JOIN Orders ON Orders.CustomerID=T.CustomerID
+ JOIN Orders ON Orders.CustomerID=T.CustomerID
     )
 SELECT FirstOrder, Datetdiff, COUNT(DISTINCT(CustomerName)) AS CountCustomer
 FROM T2
